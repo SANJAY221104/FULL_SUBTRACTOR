@@ -8,14 +8,14 @@
 module full_subtractor(a,b,c,diff,borr);
 input a,b,c;
 output diff,borr;
-wire x,n2,z,n1;
-xor s1(x,a,b);
-not s3(n2,x);
-not s4(n1,c);
-and s5(y,n1,b);
-xor s2(diff,a,x);
-and s6(z,n2,a);
-or (borr,y,z);
+wire w1,w2,w3,w4;
+xor s1(w1,a,b);
+not s3(w2,w1);
+not s4(w4,c);
+and s5(y,w4,b);
+xor s2(diff,a,w1);
+and s6(w3,w2,a);
+or (borr,y,w3);
 endmodule
 ```
 # OUTPUT
