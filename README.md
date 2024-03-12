@@ -19,4 +19,4 @@ or (borr,y,w3);
 endmodule
 ```
 # OUTPUT
-![image](https://github.com/SANJAY221104/FULL_SUBTRACTOR/assets/120782435/fe2084bb-d113-40a1-8206-4a88e68d6fed)
+![image](https://github.com/SANJAY221104/FULL_SUBTRACTOR/assets/120782435/6d57f4bb-049b-43da-95bd-763bb790751d)
